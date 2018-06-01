@@ -13,6 +13,8 @@
 		FD3332A520BFD3DC00578F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3332A420BFD3DC00578F73 /* Assets.xcassets */; };
 		FD3332A820BFD3DC00578F73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3332A620BFD3DC00578F73 /* LaunchScreen.storyboard */; };
 		FD3332AB20BFD3DC00578F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3332AA20BFD3DC00578F73 /* main.m */; };
+		FD3332B320BFFE0F00578F73 /* DynamicBackgroundTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3332B220BFFE0F00578F73 /* DynamicBackgroundTableViewCell.m */; };
+		FD3332B920C0DB8D00578F73 /* Show3DTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3332B820C0DB8D00578F73 /* Show3DTouchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		FD3332A720BFD3DC00578F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD3332A920BFD3DC00578F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD3332AA20BFD3DC00578F73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD3332B120BFFE0F00578F73 /* DynamicBackgroundTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicBackgroundTableViewCell.h; sourceTree = "<group>"; };
+		FD3332B220BFFE0F00578F73 /* DynamicBackgroundTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicBackgroundTableViewCell.m; sourceTree = "<group>"; };
+		FD3332B720C0DB8D00578F73 /* Show3DTouchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Show3DTouchViewController.h; sourceTree = "<group>"; };
+		FD3332B820C0DB8D00578F73 /* Show3DTouchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Show3DTouchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				FD33329C20BFD3DC00578F73 /* AppDelegate.m */,
 				FD33329E20BFD3DC00578F73 /* ViewController.h */,
 				FD33329F20BFD3DC00578F73 /* ViewController.m */,
+				FD3332B120BFFE0F00578F73 /* DynamicBackgroundTableViewCell.h */,
+				FD3332B220BFFE0F00578F73 /* DynamicBackgroundTableViewCell.m */,
+				FD3332B720C0DB8D00578F73 /* Show3DTouchViewController.h */,
+				FD3332B820C0DB8D00578F73 /* Show3DTouchViewController.m */,
 				FD3332A120BFD3DC00578F73 /* Main.storyboard */,
 				FD3332A420BFD3DC00578F73 /* Assets.xcassets */,
 				FD3332A620BFD3DC00578F73 /* LaunchScreen.storyboard */,
@@ -142,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD3332B920C0DB8D00578F73 /* Show3DTouchViewController.m in Sources */,
 				FD3332A020BFD3DC00578F73 /* ViewController.m in Sources */,
 				FD3332AB20BFD3DC00578F73 /* main.m in Sources */,
+				FD3332B320BFFE0F00578F73 /* DynamicBackgroundTableViewCell.m in Sources */,
 				FD33329D20BFD3DC00578F73 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +291,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TAXCQK9ZE7;
 				INFOPLIST_FILE = DynamicBackgroundTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.DynamicBackgroundTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,7 +306,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TAXCQK9ZE7;
 				INFOPLIST_FILE = DynamicBackgroundTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.DynamicBackgroundTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
